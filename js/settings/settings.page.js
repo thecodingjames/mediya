@@ -1,6 +1,6 @@
-import SettingsService from '/js/settings/settings.service.js'
-import Controls from '/js/controls/controls.js'
-import Fullscreen from '/js/mixins/fullscreen.js'
+import SettingsService from './settings.service.js'
+import Controls from '../controls/controls.js'
+import Fullscreen from '../mixins/fullscreen.js'
 
 const TAG = 'settings'
 

@@ -1,4 +1,4 @@
-import Channel from '/js/channels/channel.model.js'
+import Channel from '../channels/channel.model.js'
 
 class ChannelsService {
     #categorized

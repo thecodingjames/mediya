@@ -1,5 +1,5 @@
-import Controls from '/js/controls/controls.js'
-import Channel from '/js/channels/channel.model.js'
+import Controls from '../controls/controls.js'
+import Channel from '../channels/channel.model.js'
 
 export default {
 

@@ -1,6 +1,6 @@
-import Controls from '/js/controls/controls.js'
-import ChannelsService from '/js/channels/channels.service.js'
-import ChannelCard from '/js/channels/channel-card.js'
+import Controls from '../controls/controls.js'
+import ChannelsService from '../channels/channels.service.js'
+import ChannelCard from '../channels/channel-card.js'
 
 const TAG = 'menu'
 

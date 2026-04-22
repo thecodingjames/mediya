@@ -1,8 +1,8 @@
-import ChannelsService from '/js/channels/channels.service.js'
-import Controls from '/js/controls/controls.js'
-import ChannelCard from '/js/channels/channel-card.js'
+import ChannelsService from '../channels/channels.service.js'
+import Controls from '../controls/controls.js'
+import ChannelCard from '../channels/channel-card.js'
 
-import Fullscreen from '/js/mixins/fullscreen.js'
+import Fullscreen from '../mixins/fullscreen.js'
 
 const TAG = 'channels'
 

@@ -1,8 +1,8 @@
-import Controls from '/js/controls/controls.js'
-import ChannelsService from '/js/channels/channels.service.js'
-import Channel from '/js/channels/channel.model.js'
+import Controls from '../controls/controls.js'
+import ChannelsService from '../channels/channels.service.js'
+import Channel from '../channels/channel.model.js'
 
-import Fullscreen from '/js/mixins/fullscreen.js'
+import Fullscreen from '../mixins/fullscreen.js'
 
 const TAG = 'player'
 

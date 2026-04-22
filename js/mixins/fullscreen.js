@@ -1,4 +1,4 @@
-import SettingsService from '/js/settings/settings.service.js'
+import SettingsService from '../settings/settings.service.js'
 
 export default {
   methods: {

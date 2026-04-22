@@ -1,9 +1,9 @@
-import ChannelsService from '/js/channels/channels.service.js'
-import Controls from '/js/controls/controls.js'
-import Menu from '/js/channels/menu.js'
-import Player from '/js/player/player.js'
+import ChannelsService from '../channels/channels.service.js'
+import Controls from '../controls/controls.js'
+import Menu from '../channels/menu.js'
+import Player from '../player/player.js'
 
-import Fullscreen from '/js/mixins/fullscreen.js'
+import Fullscreen from '../mixins/fullscreen.js'
 
 const TAG = 'channel-details'
 
