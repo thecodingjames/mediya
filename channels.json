@@ -1,0 +1,33 @@
+[
+  {
+    "category": "tv",
+    "icon": "tv",
+    "channels": [
+      {
+        "name": "Nature",
+        "type": "application/x-mpegURL",
+        "url": "https://tgn.bozztv.com/betterlife/betternature/betternature/index.m3u8"
+      }
+    ]
+  },
+  {
+    "category": "radio",
+    "icon": "cell_tower",
+    "channels": [
+      {
+        "name": "Lo-fi",
+        "type": "audio/mp3",
+        "url": "https://live.hunter.fm/lofi_normal"
+      },
+      {
+        "name": "Zen",
+        "type": "audio/aac",
+        "urls": [
+          "https://ice2.somafm.com/dronezone-64-aac",
+          "https://ice2.somafm.com/n5md-64-aac",
+          "https://ice2.somafm.com/synphaera-64-aac"
+        ]
+      }
+    ]
+  }
+]

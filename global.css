@@ -1,0 +1,12 @@
+:root {
+  --base-padding: 4em;
+}
+
+:focus {
+  outline: none;
+}
+
+.content {
+  padding: var(--base-padding);
+  flex-grow: 1;
+}
