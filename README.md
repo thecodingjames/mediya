@@ -4,7 +4,7 @@ A lightweight front-end app to play media streams
 
 - Supports FireStick and Nvidia Shield controller input
 
-[Demo!](thecodingjames.github.io/mediya/)
+[Demo!](http://thecodingjames.github.io/mediya/)
 
 
 ## Soft-fork
