@@ -12,6 +12,7 @@ git add remote upstream https://github.com/thecodingjames/mediya.git
 ```
 
 ```
+git pull upstream main
 git merge upstream/main --allow-unrelated-histories
 ```
 
