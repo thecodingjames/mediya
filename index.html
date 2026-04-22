@@ -41,4 +41,10 @@
 
         app.mount('#app')
     </script>
+
+    <script>
+      function rootUrl(url) {
+        return `${window.location.origin}${window.location.pathname}${url.substr(1)}`
+      }
+    </script>
 </html>

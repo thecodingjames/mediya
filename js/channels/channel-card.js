@@ -27,7 +27,7 @@ export default {
 
     methods: {
       handleDefaultLogo(event) {
-        event.target.src = '/assets/logos/default.png'
+        event.target.src = rootUrl('/assets/logos/default.png')
       },
     },
 

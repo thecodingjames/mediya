@@ -8,7 +8,7 @@ class ChannelsService {
     }
 
     static async load() {
-        const categorized = await fetch('/channels.json')
+        const categorized = await fetch(rootUrl('/channels.json'))
             .then( r => r.json() )
             .then( categories => {
                 // Add corresponding data to every channel
@@ -22,7 +22,7 @@ class ChannelsService {
                         channel.category = categoryName
 
                         const lowercaseName = channel.name.toLowerCase()
-                        channel.logo = `/assets/logos/${lowercaseName}.png`
+                        channel.logo = rootUrl(`/assets/logos/${lowercaseName}.png`)
                         channel.route = `/${categoryName}/${lowercaseName}`
 
                         return channel
