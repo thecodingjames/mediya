@@ -10,7 +10,7 @@ A lightweight front-end app to play media streams
 ## Soft-fork
 
 ```
-git add remote upstream https://github.com/thecodingjames/mediya.git
+git remote add upstream https://github.com/thecodingjames/mediya.git
 ```
 
 ```
